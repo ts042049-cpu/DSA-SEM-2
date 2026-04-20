@@ -1,0 +1,25 @@
+Dynamic Array:
+Resizing happens when capacity is full.
+Appended elements 0–9 successfully.
+After 3 pops, array updated correctly.
+
+Singly Linked List:
+Inserted elements at beginning and end.
+Deleted element successfully.
+Traversal works correctly.
+
+Doubly Linked List:
+Insert after target works.
+Delete at position works.
+
+Stack:
+Push, pop, peek working correctly.
+
+Queue:
+Enqueue, dequeue, front working correctly.
+
+Parentheses Checker:
+([]) -> True
+([)] -> False
+((( -> False
+"" -> True
