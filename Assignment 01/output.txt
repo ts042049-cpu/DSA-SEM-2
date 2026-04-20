@@ -1,0 +1,31 @@
+Factorial Tests:
+0 1
+1 1
+5 120
+10 3628800
+
+
+Fibonacci Tests:
+Naive fib(5) = 5 calls: 15
+Memo fib(5) = 5 calls: 9
+Naive fib(10) = 55 calls: 177
+Memo fib(10) = 55 calls: 19
+Naive fib(20) = 6765 calls: 21891
+Memo fib(20) = 6765 calls: 39
+
+
+Tower of Hanoi (N=3):
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+
+Binary Search:
+Search 7: 3
+Search 1: 0
+Search 13: 6
+Search 2: -1
