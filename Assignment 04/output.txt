@@ -1,0 +1,49 @@
+=== TASK 1: BINARY SEARCH TREE (BST) TEST PLAN ===
+Inserting: [50, 30, 70, 20, 40, 60, 80]
+Inorder Traversal: [20, 30, 40, 50, 60, 70, 80]
+
+Search 20: True
+Search 90: False
+
+Deleting 20 (Leaf Node):
+Inorder Traversal: [30, 40, 50, 60, 70, 80]
+
+Inserting 65...
+Deleting 60 (Node with one child):
+Inorder Traversal: [30, 40, 50, 65, 70, 80]
+
+Deleting 50 (Node with two children):
+Inorder Traversal: [30, 40, 65, 70, 80]
+
+=== TASK 2: GRAPH TEST PLAN ===
+Graph Adjacency List:
+  A: [('B', 2), ('C', 4)]
+  B: [('D', 7), ('E', 3)]
+  C: [('E', 1), ('F', 8)]
+  D: [('F', 5)]
+  E: [('D', 2), ('F', 6)]
+  F: []
+
+BFS Traversal from A: A -> B -> C -> D -> E -> F
+DFS Traversal from A: A -> B -> D -> F -> E -> C
+
+=== TASK 3: HASH TABLE TEST PLAN ===
+Hash Table State (Table Size: 5):
+  Bucket 0: [[10, 'Val_10'], [15, 'Val_15'], [20, 'Val_20']]
+  Bucket 1: []
+  Bucket 2: [[7, 'Val_7'], [12, 'Val_12']]
+  Bucket 3: []
+  Bucket 4: []
+
+Retrieving Keys:
+  Key 10: Val_10
+  Key 7: Val_7
+  Key 12: Val_12
+
+Deleting 15 (Inside collided bucket 0):
+Updated Hash Table State:
+  Bucket 0: [[10, 'Val_10'], [20, 'Val_20']]
+  Bucket 1: []
+  Bucket 2: [[7, 'Val_7'], [12, 'Val_12']]
+  Bucket 3: []
+  Bucket 4: []
